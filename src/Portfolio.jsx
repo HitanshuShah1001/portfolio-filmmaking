@@ -474,7 +474,7 @@ Context: A casual photo series of birds—captured whenever and wherever they sh
           onClick={goBackToCategory}
           className="bg-gray-800 bg-opacity-60 border border-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-700 hover:bg-opacity-80 transition-all duration-300 hover:-translate-x-2 backdrop-blur-lg mb-8"
         >
-          ← Back to Category
+          ← Back to Categories
         </button>
         <h2 className="text-4xl md:text-5xl text-white text-center mb-4 font-bold drop-shadow-lg">
           {proj.title}
