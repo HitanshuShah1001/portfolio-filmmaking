@@ -365,7 +365,7 @@ Context: A casual photo series of birds—captured whenever and wherever they sh
       <p className="text-xl md:text-2xl text-gray-300 mb-12 animate-slide-up delay-300">
         Pick a Card
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl animate-slide-up delay-600">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl animate-slide-up delay-600 px-2 md:px-0">
         {Object.entries(categories).map(([key, category], index) => (
           <div
             key={key}
