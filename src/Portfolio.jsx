@@ -370,7 +370,7 @@ Context: A casual photo series of birds—captured whenever and wherever they sh
           <div
             key={key}
             onClick={() => showCategory(key)}
-            className="group relative rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl min-h-48"
+            className="group relative rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl h-[380px]" // ← taller height
           >
             {/* Thumbnail image fills the card */}
             <img
